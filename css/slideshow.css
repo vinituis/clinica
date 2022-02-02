@@ -62,9 +62,3 @@
   @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
   }
-
-  .splide__slide img {
-    width: 100%;
-    height: auto;
-  }
-  
