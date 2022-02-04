@@ -4,6 +4,7 @@
     --cor-fundo: #3c197f;
     --cor-texto: #fff;
     --cor-nav: #221d75;
+    --cor-nav-2: #3c197f;
 }
 
 *{
@@ -32,4 +33,89 @@ body {
 
 .header img {
     width: 120px;
+}
+
+.item img:hover {
+    
+}
+
+.item .descritivo {
+    display: hidden;
+    background-color: saddlebrown;
+}
+
+desc {
+    background-color: #221d75;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+}
+
+desc .nav-desc {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--cor-nav-2);
+}
+
+desc .nav-desc p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 4;
+    padding-left: 5%;
+}
+
+desc .nav-desc .close {
+    display: flex;
+    padding: 27px 5%;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+desc pt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    margin-top: 1%;
+    background-color: var(--cor-nav);
+}
+
+.footer-topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-img {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1% 5%;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 4;
+}
+
+.footer-topo img {
+    display: flex;
+    width: 200px;
+}
+
+.footer-copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 0;
+    background-color: rgba(0, 0, 0, 0.2);
 }
