@@ -38,9 +38,9 @@ body {
     width: 120px;
 }
 
-.item .descritivo {
-    display: hidden;
-    background-color: saddlebrown;
+.title {
+    padding: 30px 20px;
+    text-transform: uppercase;
 }
 
 desc {

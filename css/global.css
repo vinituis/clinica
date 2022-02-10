@@ -22,3 +22,11 @@
     background-color: #fff;
     border-radius: 8px;
 }
+
+span.dot {
+    display: none !important;
+}
+
+button.owl-dot {
+    display: none !important;
+}
