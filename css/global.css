@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+:root {
+    --cor-fundo: #3c197f;
+    --cor-texto: #fff;
+    --cor-nav: #221d75;
+    --cor-nav-2: #3c197f;
+    --cor-btn-n: #4a156b;
+    --cor-btn-p: #1c358c;
+    --cor-btn-d: #808080;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--cor-nav);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 8px;
+}

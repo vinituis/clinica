@@ -1,12 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
-
-:root {
-    --cor-fundo: #3c197f;
-    --cor-texto: #fff;
-    --cor-nav: #221d75;
-    --cor-nav-2: #3c197f;
-}
-
 *{
     color: var(--cor-texto);
     font-family: 'Comfortaa', cursive;
@@ -31,12 +22,20 @@ body {
     align-items: center;
 }
 
-.header img {
-    width: 120px;
+.header div a {
+    text-decoration: none;
+    cursor: pointer;
 }
 
-.item img:hover {
-    
+.header div a.ativo,
+.header div a:hover {
+    padding: 10px 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.header img {
+    width: 120px;
 }
 
 .item .descritivo {
@@ -74,12 +73,53 @@ desc .nav-desc .close {
     display: flex;
     padding: 27px 5%;
     background-color: rgba(0, 0, 0, 0.05);
+    cursor: pointer;
 }
 
-desc pt {
+desc .content .desc-banner img {
+    width: 100%;
+    max-height: 300px;
+    margin-bottom: 25px;
+}
+
+desc .content .desc-description {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 0 5%;
+}
+
+desc .content .desc-description .desc-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+desc .content .desc-description .btns {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+    gap: 30px;
+}
+
+desc .content .desc-description .btns button {
+    border: none;
+    border-radius: 4px;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+desc .content .desc-description .btns .btn-n {
+    background-color: var(--cor-btn-n);
+}
+
+desc .content .desc-description .btns .btn-p {
+    background-color: var(--cor-btn-p);
+}
+
+desc .content .desc-description .btns .btn-d {
+    background-color: var(--cor-btn-d);
+    cursor: not-allowed;
 }
 
 .footer {

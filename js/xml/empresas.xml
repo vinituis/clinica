@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<empresas>
+    <empresa>
+        <item>
+            <imagem>/img/line1/1.png</imagem>
+            <nome>Empresa teste</nome>
+            <banner>teste</banner>
+            <descritivo>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo culpa sequi id ipsam ab laborum alias quidem, veritatis cum velit?</descritivo>
+            <botao1>
+                <texto>Teste botão 1</texto>
+                <link>#</link>
+            </botao1>
+            <botao2>
+                <texto>Teste botão 2</texto>
+                <link>#</link>
+            </botao2>
+        </item>
+    </empresa>
+    <empresa>
+        <item>
+            <imagem>/img/line1/2.png</imagem>
+            <nome>Empresa teste</nome>
+            <banner>teste</banner>
+            <descritivo>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo culpa sequi id ipsam ab laborum alias quidem, veritatis cum velit?</descritivo>
+            <botao1>
+                <texto>Teste botão 1</texto>
+                <link>#</link>
+            </botao1>
+            <botao2>
+                <texto>Teste botão 2</texto>
+                <link>#</link>
+            </botao2>
+        </item>
+    </empresa>
+    <empresa>
+        <item>
+            <imagem>/img/line1/3.png</imagem>
+            <nome>Empresa teste</nome>
+            <banner>teste</banner>
+            <descritivo>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo culpa sequi id ipsam ab laborum alias quidem, veritatis cum velit?</descritivo>
+            <botao1>
+                <texto>Teste botão 1</texto>
+                <link>#</link>
+            </botao1>
+            <botao2>
+                <texto>Teste botão 2</texto>
+                <link>#</link>
+            </botao2>
+        </item>
+    </empresa>
+    <empresa>
+        <item>
+            <imagem>/img/line1/4.png</imagem>
+            <nome>Empresa teste</nome>
+            <banner>teste</banner>
+            <descritivo>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo culpa sequi id ipsam ab laborum alias quidem, veritatis cum velit?</descritivo>
+            <botao1>
+                <texto>Teste botão 1</texto>
+                <link>#</link>
+            </botao1>
+            <botao2>
+                <texto>Teste botão 2</texto>
+                <link>#</link>
+            </botao2>
+        </item>
+    </empresa>
+    <empresa>
+        <item>
+            <imagem>/img/line1/5.png</imagem>
+            <nome>Empresa teste</nome>
+            <banner>teste</banner>
+            <descritivo>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo culpa sequi id ipsam ab laborum alias quidem, veritatis cum velit?</descritivo>
+            <botao1>
+                <texto>Teste botão 1</texto>
+                <link>#</link>
+            </botao1>
+            <botao2>
+                <texto>Teste botão 2</texto>
+                <link>#</link>
+            </botao2>
+        </item>
+    </empresa>
+</empresas>
