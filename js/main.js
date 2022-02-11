@@ -34,6 +34,11 @@ div.style.display = 'none';
 var content = document.getElementById('conteudo');
 content.style.display = 'block';
 
+var filter = document.getElementById('filter');
+filter.style.display = 'none';
+
+var btnFilter = document.getElementById('filtro');
+
 function limpaDescrição () {
    
     div.style.display='none';
@@ -75,3 +80,12 @@ for (var i = 0; i < item.length; i++) {
         
     })
 }
+
+btnFilter.addEventListener ('click', function (event) {
+    if (filter.style.display == 'none'){
+        filter.style.display = 'block';
+    } else {
+        filter.style.display = 'none';
+    }
+    
+})
