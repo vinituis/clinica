@@ -1,0 +1,30 @@
+.descricao {
+    background-color: var(--cor-fundo2);
+    margin: 25px;
+    padding: 60px;
+}
+
+.iniciativa .descricao p {
+    margin-top: 15px;
+}
+
+.iniciativa .title {
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iniciativa .logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    padding: 35px;
+    margin: 0 25px;
+}
+
+.iniciativa .logos img {
+    max-width: 200px;
+    max-height: 80px;
+}

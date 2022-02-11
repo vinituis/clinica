@@ -2,6 +2,7 @@
 
 :root {
     --cor-fundo: #3c197f;
+    --cor-fundo2: #1a4e82;
     --cor-texto: #fff;
     --cor-nav: #221d75;
     --cor-nav-2: #3c197f;
@@ -23,10 +24,88 @@
     border-radius: 8px;
 }
 
+*{
+    color: var(--cor-texto);
+    font-family: 'Comfortaa', cursive;
+    margin: 0; padding: 0;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
 span.dot {
     display: none !important;
 }
 
 button.owl-dot {
     display: none !important;
+}
+
+.header {
+    width: 100%;
+    background-color: var(--cor-nav);
+    padding: 15px 0px;
+    margin: 0 0 1% 0;
+}
+
+.header div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header div a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header div a.ativo,
+.header div a:hover {
+    padding: 10px 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.header img {
+    width: 120px;
+}
+
+.footer {
+    margin-top: 1%;
+    background-color: var(--cor-nav);
+}
+
+.footer-topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-img {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1% 5%;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 4;
+}
+
+.footer-topo img {
+    display: flex;
+    width: 200px;
+}
+
+.footer-copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 0;
+    background-color: rgba(0, 0, 0, 0.2);
 }
