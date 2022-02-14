@@ -6,21 +6,24 @@
 }
 
 .search input {
-    color: #696969;
+    color: var(--cor-txt-input);
     border: none;
     margin: 0 15px;
-    min-width: 880px;
-}
-
-.search input:focus {
-    border: none;
-    outline: 0;
+    min-width: 860px;
 }
 
 .search i {
     padding: 15px;
     color: #696969;
     cursor: pointer;
+}
+
+.fa-times {
+    padding: 0 !important; margin: 0 !important;
+}
+
+.fa-filter {
+    background-color: rgba(74, 21, 107, 0.3);
 }
 
 .search div {
@@ -49,6 +52,7 @@
     background-color: var(--cor-btn-n);
     padding: 10px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .title {
