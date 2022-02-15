@@ -26,27 +26,11 @@
 
 var item = document.getElementsByClassName('item');
 
-console.log(item);
-
 var div = document.getElementById('descritivo');
 div.style.display = 'none';
 
 var content = document.getElementById('conteudo');
 content.style.display = 'block';
-
-var filter = document.getElementById('filter');
-filter.style.display = 'none';
-
-var btnFilter = document.getElementById('filtro');
-
-var closeSearch = document.getElementById('closeP');
-closeSearch.style.color = '#fff';
-
-var inputSearch = document.getElementById('inputSearch');
-
-function limpaInputSearch () {
-    inputSearch.value = '';
-}
 
 function limpaDescrição () {
    
@@ -89,23 +73,3 @@ for (var i = 0; i < item.length; i++) {
         
     })
 }
-
-btnFilter.addEventListener ('click', function (event) {
-    if (filter.style.display == 'none'){
-        filter.style.display = 'block';
-    } else {
-        filter.style.display = 'none';
-    }
-    
-})
-
-inputSearch.addEventListener ('click', function (event) {
-    if (closeSearch.style.color == 'rgb(255, 255, 255)') {
-        closeSearch.style.color = '#696969';
-    }
-})
-
-closeSearch.addEventListener ('click', function (event) {
-    limpaInputSearch();
-    closeSearch.style.color = '#fff';
-})

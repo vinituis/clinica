@@ -54,7 +54,7 @@
             <div>
                 <input type="text" name="" id="inputSearch">
                 <i class="fa fa-times" id="closeP" ></i>
-                <i class="fa fa-search"></i>
+                <i class="fa fa-search" onclick="t()"></i>
             </div>
             <div>
                 <i class="fa fa-filter" id="filtro"></i>
@@ -63,97 +63,98 @@
 
         <div class="filter" id="filter">
             <div>
-                <span>Cibersecurity</span>
-                <span>Realidade Aumentada e Simulações Virtuais</span>
-                <span>Manufatura Aditiva</span>
-                <span>Digitalização</span>
-                <span>Big Data</span>
-                <span>Iot</span>
+                <span class="span">Cibersecurity</span>
+                <span class="span">Realidade Aumentada e Simulações Virtuais</span>
+                <span class="span">Manufatura Aditiva</span>
+                <span class="span">Digitalização</span>
+                <span class="span">Big Data</span>
+                <span class="span">Iot</span>
             </div>
         </div>
         
+        <div id="itens">
+            <h3 class="title">Cibersecurity</h3>
 
-        <h3 class="title">Cibersecurity</h3>
-
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <img src="./img/line1/9.png">
-            </div>
-            <div class="item">
-                <img src="./img/line1/8.png">
-            </div>
-            <div class="item">
-                <img src="./img/line1/7.png">
-            </div>
-            <div class="item">
-                <img src="./img/line1/6.png">
-            </div>
-            <div class="item">
-                <img src="./img/line1/5.png">
-            </div>
-            <div class="item">
-                <img src="./img/line1/4.png">
-            </div>
-            <div class="item">
-                <img src="./img/line1/3.png">
-            </div>
-        </div>
-        
-        <h3 class="title">Realidade Aumentada e Simulações Virtuais</h3>
-
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <img src="./img/line1/1.png">
-            </div>
-        </div>
-        
-        <h3 class="title">Manufatura Aditiva</h3>
-
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <img src="./img/line1/2.png">
-            </div>
-        </div>
-        
-        <h3 class="title">Digitalização</h3>
-
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <img src="./img/line1/3.png">
-            </div>
-        </div>
-
-        <h3 class="title">Big Data</h3>
-
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <img src="./img/line1/4.png">
-            </div>
-        </div>
-
-        <h3 class="title">Iot</h3>
-
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <img src="./img/line1/5.png">
-            </div>
-        </div>
-        
-        <footer class="footer">
-            <div class="footer-topo">
-                <div class="footer-img">
-                    <img src="./img/logo_branco.png">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./img/line1/9.png">
                 </div>
-                <div class="footer-item">
-                    <p>Coisas</p>
+                <div class="item">
+                    <img src="./img/line1/8.png">
+                </div>
+                <div class="item">
+                    <img src="./img/line1/7.png">
+                </div>
+                <div class="item">
+                    <img src="./img/line1/6.png">
+                </div>
+                <div class="item">
+                    <img src="./img/line1/5.png">
+                </div>
+                <div class="item">
+                    <img src="./img/line1/4.png">
+                </div>
+                <div class="item">
+                    <img src="./img/line1/3.png">
                 </div>
             </div>
-            <div class="footer-copy">
-                <p>&copy; ABIMAQ - 2022</p>
-            </div>
-        </footer>
-    </div>  
+            
+            <h3 class="title">Realidade Aumentada e Simulações Virtuais</h3>
 
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./img/line1/1.png">
+                </div>
+            </div>
+            
+            <h3 class="title">Manufatura Aditiva</h3>
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./img/line1/2.png">
+                </div>
+            </div>
+            
+            <h3 class="title">Digitalização</h3>
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./img/line1/3.png">
+                </div>
+            </div>
+
+            <h3 class="title">Big Data</h3>
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./img/line1/4.png">
+                </div>
+            </div>
+
+            <h3 class="title">Iot</h3>
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./img/line1/5.png">
+                </div>
+            </div>
+            
+            <footer class="footer">
+                <div class="footer-topo">
+                    <div class="footer-img">
+                        <img src="./img/logo_branco.png">
+                    </div>
+                    <div class="footer-item">
+                        <p>Coisas</p>
+                    </div>
+                </div>
+                <div class="footer-copy">
+                    <p>&copy; ABIMAQ - 2022</p>
+                </div>
+            </footer>
+        </div>  
+
+    </div>
     <desc id="descritivo">
         <div class="nav-desc">
             <p>ZorfaTec - Consultoria em Inovação</p>
@@ -196,7 +197,8 @@
 
     <!-- JS -->
     <script src="./js/main.js"></script>
-    <script src="./js/slideshow.js"></script>
+    <script src="./js/slideshow.js"></script> 
+    <script src="./js/pesquisa.js"></script> 
 
     <!-- Owl Carousel -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
