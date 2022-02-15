@@ -22,17 +22,17 @@
         <div class="cadastro">
 
             <form action="">
-                <h3>Faça seu registro para acessar</h3>
-                <input type="text" name="Nome" id="cadNome" placeholder="Nome">
-                <input type="text" name="empresa" id="cadEmpresa" placeholder="Empresa">
-                <input type="email" name="email" id="cadEmail" placeholder="E-mail corporativo">
+                <h3>Preencha com seus dados para acessar</h3>
+                <input type="text" name="Nome" id="cadNome" placeholder="Nome" required>
+                <input type="text" name="empresa" id="cadEmpresa" placeholder="Empresa" required>
+                <input type="email" name="email" id="cadEmail" placeholder="E-mail corporativo" required>
                 <div class="aceite">
-                    <input type="checkbox" name="aceite" id="aceite">
+                    <input type="checkbox" name="aceite" id="aceite" required>
                     <label for="aceite">Eu aceito receber comunicações da ABIMAQ</label>        
                 </div>
                 <button type="submit" class="btn-p">Acessar</button>
 
-                <a href="./home">Passar</a>
+                <a href="./home.html">Passar</a>
             </form>
 
         </div>
