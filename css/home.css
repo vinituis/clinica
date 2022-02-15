@@ -93,27 +93,23 @@ desc .nav-desc .close {
     cursor: pointer;
 }
 
-desc .content .desc-banner img,
-desc .content .desc-banner iframe {
-    width: 100%;
-    max-height: 300px;
-    margin-bottom: 25px;
-}
-
-desc .content .desc-description {
+.desc-description {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     gap: 25px;
     padding: 0 5%;
+    height: 90vh;
 }
 
-desc .content .desc-description .desc-txt {
+.desc-txt {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    margin-top: 30px;
 }
 
-desc .content .desc-description .btns {
+.btns {
     display: flex;
     align-items: center;
     justify-content: left;
@@ -121,22 +117,23 @@ desc .content .desc-description .btns {
     padding-bottom: 30px;
 }
 
-desc .content .desc-description .btns button {
+.btns button {
     border: none;
     border-radius: 4px;
     padding: 1rem;
     cursor: pointer;
+    margin-top: 35px;
 }
 
-desc .content .desc-description .btns .btn-n {
+.btns .btn-n {
     background-color: var(--cor-btn-n);
 }
 
-desc .content .desc-description .btns .btn-p {
+.btns .btn-p {
     background-color: var(--cor-btn-p);
 }
 
-desc .content .desc-description .btns .btn-d {
+.btns .btn-d {
     background-color: var(--cor-btn-d);
     cursor: not-allowed;
 }
