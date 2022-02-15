@@ -1,0 +1,63 @@
+.conteudo {
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 10vh;
+}
+
+.cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cadastro form {
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+    height: 80vh;
+}
+
+input { 
+    width: 100%;
+    color: #fff;
+    background-color: transparent;
+    padding: 10px;
+    border-top:none; border-bottom: 1px solid #fff; border-left: none; border-right: none;
+}
+
+input::placeholder {
+    color: var(--cor-texto);
+}
+
+input:focus {
+    border-top:none; border-bottom: 1px solid #fff; border-left: none; border-right: none;
+}
+
+.aceite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row !important;
+}
+
+.aceite input {
+    width: 1rem;
+    margin: 0 25px 0 0;
+}
+
+.aceite input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+.btn-p {
+    width: 100%;
+}
