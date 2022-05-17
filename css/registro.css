@@ -32,9 +32,20 @@ input, textarea {
     font-size: 1rem;
 }
 
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.n-caracteres {
+    font-size: 0.9rem;
+    margin: 0.3rem 0 1rem 0;
+}
+
 select {
     width: 554px;
-    color: #696969;
+    color: #261919;
     padding: 15px 25px;
     margin: 2px 0px;
 }

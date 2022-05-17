@@ -103,7 +103,8 @@ if(isset($_POST['submit'])){
          <input type="email" name="email" required placeholder="E-mail">
          <input type="password" name="password" required placeholder="Senha">
          <input type="password" name="cpassword" required placeholder="Repita a senha">
-         <textarea name="dor" rows="5" maxlength="250" required placeholder="Descreva sua dor/necessidade"></textarea>
+         <textarea id="dor" name="dor" rows="5" maxlength="250" required placeholder="Descreva sua dor/necessidade"></textarea>
+         <span id="n-caracteres" class="n-caracteres">0/250</span>
          <select name="user_type">
             <option value="user"></option>
          </select>
@@ -120,6 +121,7 @@ if(isset($_POST['submit'])){
 </div>
 <!-- JS -->
 <script src="https://www.google.com/recaptcha/api.js"></script>
+<script src="./js/contador-caracteres.js"></script>
    <?php
       echo $mouseflow;
    ?>
