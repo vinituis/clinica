@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 7%;
+    background: var(--cor-fundo);
+    min-height: 100vh;
+    gap: 15px;
+    padding-bottom: 80px;
+}
+
+.container .content {
+    flex:1 1 400px
+}
+
+.container .image {
+    width: 800px;
+}
+
+.container .image img {
+    width: 100%;
+}
+
+.container .content img {
+    width: 12rem;
+    margin-bottom: 50px;
+}
+
+.container .content .title {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.container .content p {
+    padding: 30px 0px;
+}
+
+.container .content .count-down {
+    display: flex;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+.container .content .count-down .box {
+    padding: 20px 5px; 
+    background: var(--cor-nav);
+    text-align: center;
+    flex:1 1 20px;
+}
+
+.container .content .count-down .box h3 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.container .content .count-down .box span {
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+.container .content .btn {
+    display: inline-block;
+    padding: 8px 50px;
+    margin: 10px 0;
+    font-size: 17px;
+    background: var(--cor-btn-p);
+    transition: .2s ease-out;
+}
+
+.container .content .btn:hover {
+    letter-spacing: 2px;
+}
+
+@media (max-width:500px) {
+
+    .container {
+        padding: 20px;
+    }
+
+    .container .content {
+        text-align: center;
+    }
+
+    .container .content .title {
+        font-size: 35px;
+    }
+    
+    .container .content p {
+        font-size: 14px;
+    }
+
+    .container .content .count-down {
+        gap: 5px;
+    }
+
+    .container .content .count-down .box h3 {
+        font-size: 30px;
+    }
+
+    .container .content .count-down .box span {
+        font-size: 15px;
+    }
+}

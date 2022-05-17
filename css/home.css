@@ -8,8 +8,10 @@
 .search input {
     color: var(--cor-txt-input);
     border: none;
-    margin: 0 15px;
-    min-width: 860px;
+    margin: 0;
+    padding: 13.5px;
+    max-width: 920px;
+    width: 920px;
 }
 
 .search i {
@@ -86,7 +88,7 @@ desc .nav-desc p {
     padding-left: 5%;
 }
 
-desc .nav-desc .close {
+.close {
     display: flex;
     padding: 27px 5%;
     background-color: rgba(0, 0, 0, 0.05);
@@ -136,4 +138,128 @@ desc .nav-desc .close {
 .btns .btn-d {
     background-color: var(--cor-btn-d);
     cursor: not-allowed;
+}
+
+.nome-solucao {
+    padding: 20px 10px;
+}
+
+.invisivel {
+    display: none !important;
+}
+
+.txt-bv {
+    margin: 25px 0px;
+    text-align: center;
+}
+
+.menu::before{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    *{
+        padding: 0; margin: 0;
+    }
+
+    #inputSearch{
+        width: 280px;
+    }
+
+    .txt-bv{
+        font-size: 1.2rem;
+    }
+
+    .nav-desc{ 
+        position: fixed;
+        top: 0;
+    }
+
+    .nav-desc p {
+        text-align: center;
+    }
+
+    .desc-description {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin: 0 20px;
+        margin-top: 25%;
+    }
+
+    .btns {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .btns a {
+        width: 100%;
+    }
+
+    .btns a button{
+        width: 100%;
+    }
+
+    .desc-description iframe {
+        width: 360px;
+        height: 215px;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+    *{
+        padding: 0; margin: 0;
+    }
+
+    #inputSearch{
+        width: 30rem;
+    }
+
+    .txt-bv{
+        font-size: 1.5rem;
+    }
+
+    .nav-desc{ 
+        position: fixed;
+        top: 0;
+    }
+
+    .nav-desc p {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .close {
+        padding: 2.2rem 5%;
+    }
+
+    .desc-description {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin: 0 20px;
+        margin-top: 18%;
+    }
+
+    .btns {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .btns a {
+        width: 100%;
+    }
+
+    .btns a button{
+        width: 100%;
+    }
+
+    .desc-description iframe {
+        width: 550px;
+        height: 315px;
+        margin-bottom: 25px;
+    }
 }

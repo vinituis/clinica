@@ -1,0 +1,58 @@
+.content-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 25px;
+    height: 70vh;
+}
+
+.inscritos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.inscritos h1 {
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+    margin-top: 35px;
+}
+
+.inscritos p {
+    margin-bottom: 15px;
+}
+
+.n-inscritos {
+    background-color: var(--cor-btn-d);
+    padding: 20px 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .content-home{
+        margin: 0 25px;
+        text-align: center;
+    }
+
+    .content-home .inscritos h1 {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
+    .n-inscritos {
+        font-size: 15px;
+        width: 100%;
+        padding: 15px 0;
+    }
+}

@@ -1,0 +1,102 @@
+.content-inscritos {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form h1 {
+    margin: 20px 0px;
+}
+
+input, select, textarea {
+    color: #696969;
+    padding: 15px 25px;
+    margin: 2px 0px;
+    width: 500px;
+    font-size: 1rem;
+    border: none;
+}
+
+select {
+    width: 554px;
+    color: #696969;
+    padding: 15px 25px;
+    margin: 2px 0px;
+}
+
+option {
+    color: #696969;
+}
+
+.form-btn {
+    width: 554px;
+    background-color: var(--cor-btn-n);
+    color: #fff;
+    border: 2px solid #696969;
+}
+
+.error-msg {
+    background-color: red;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 20px 0px;
+}
+
+.correct-msg {
+    background-color: green;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 20px 0px;    
+}
+
+.download {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    tr, td {
+        font-size: 0.8rem;
+    }
+
+    iframe {
+        width: 200px;
+        height: 110px;
+    }
+
+    input, textarea, select {
+        max-width: 80%;
+    }
+
+    select {
+        max-width: 100%;
+        width: 94%;
+        margin: 0px;
+    }
+
+    .form-btn {
+        max-width: 100%;
+        width: 94%;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+}

@@ -61,3 +61,54 @@ input:focus {
 .btn-p {
     width: 100%;
 }
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.captcha {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.btn {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .cadastro {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cadastro h3 {
+        text-align: center;
+        width: 90%;
+    }
+
+    .cadastro input {
+        width: 80%;
+    }
+
+    .cadastro button {
+        width: 80%;
+    }
+
+    .cadastro a {
+        text-align: center;
+        width: 90%;
+    }
+
+
+}
