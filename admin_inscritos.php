@@ -110,7 +110,7 @@ if(isset($_POST['submit'])){
 
                   if($user_type[$i] == 'user'){
                      echo "<tr>";
-                     echo "<td>" . $user_type[$i] . "</td>";
+                     echo "<td>usuário ativo</td>";
                      echo "<td>" . $name[$i] . "</td>";
                      echo "<td>" . $email[$i] . "</td>";
                      echo "<td>" . $dor[$i] . "</td>";
@@ -118,7 +118,7 @@ if(isset($_POST['submit'])){
                      echo "</tr>";
                   }else if($user_type[$i] == 'block'){
                      echo "<tr>";
-                     echo "<td>bloqueado</td>";
+                     echo "<td>usuário bloqueado</td>";
                      echo "<td>" . $name[$i] . "</td>";
                      echo "<td>" . $email[$i] . "</td>";
                      echo "<td>" . $dor[$i] . "</td>";
