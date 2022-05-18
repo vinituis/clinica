@@ -4,3 +4,5 @@ RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php
 
 ErrorDocument 404 /clinica/erro.php
+
+#RewriteRule ^(.*)$ pos_evento.php
