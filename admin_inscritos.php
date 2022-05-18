@@ -157,8 +157,8 @@ if(isset($_POST['submit'])){
          <input type="password" name="cpassword" required placeholder="Repita a senha">
          <textarea name="dor" rows="5" maxlength="250" required placeholder="Descreva sua dor/necessidade"></textarea>
          <select name="user_type">
-            <option value="user">user</option>
-            <option value="admin">admin</option>
+            <option value="user">usuário</option>
+            <option value="admin">administrador</option>
          </select>
          <input type="submit" name="submit" value="Cadastrar" class="form-btn">
       </form>
