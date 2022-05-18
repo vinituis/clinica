@@ -33,9 +33,7 @@
     font-size: 20px;
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
+.footer {   
     width: 100%;
 }
 
