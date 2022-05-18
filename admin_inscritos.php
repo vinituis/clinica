@@ -85,7 +85,7 @@ if(isset($_POST['submit'])){
         <div style="overflow-x:auto;">
          <table id="table" class="tabela-usuario">
             <tr>
-               <td>Tipo</td>
+               <td>Permissão</td>
                <td>Nome</td>
                <td>E-mail</td>
                <td>Dor</td>
