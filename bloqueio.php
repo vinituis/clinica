@@ -4,7 +4,7 @@ include 'config.php';
 
 $id_page = $_GET['id'];
 
-$sql = "UPDATE user_form SET user_type = 'block' WHERE id = '$id_page'";
+$sql = "UPDATE user SET user_type = 'block' WHERE id = '$id_page'";
 
 if (mysqli_query($conn, $sql)) {
     $sucesso = "Bloqueio realizado com sucesso!";
